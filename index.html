@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Jean Brown</title>
+</head>
+
+<body>
+    <div id="header">
+        <canvas id="canvas"></canvas>
+        <div class="clearfix wrapper">
+            <div id="logo">
+                <img src="img/logo.png" alt="logo de la pagina">
+            </div>
+            <div id="nav">
+                <ul id="list" class="clearfix">
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#gitHub">GitHub Activity</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix wrapper">
+        <p id="sentence">In theory, theory and practice are the same. In practice, they are not.</p>
+        <img id="profile" src="img/Perfil.jpg" alt="Foto de Perfil">
+    </div>
+    <section id="aboutMe">
+        <div class="clearfix wrapper">
+            <img id="profile2" src="img/Perfil2.jpeg" alt="Foto de Perfil">
+            <div id="content">
+                <h2 id="title">About Me</h2>
+                <p id="info">I'm Jean Brown, web developer. I love everything related to technology and video games. I
+                    like to
+                    listen to
+                    alternative music and I love to play magic in my free time.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="clearfix wrapper">
+            <h2 id="projectsTitle">Projects</h2>
+            <div class="contentProjects">
+                <div class="projetsCard">
+                    <div><a href="https://jeantoru.github.io/Proyecto1-Hotel/" target="_black"> <img class="imgProjets"
+                                src="img/hotel.jpg" alt="Proyecto de Hotel"></a>
+                    </div>
+                    <div class="clearfix">
+                        <h4>Hotel</h4>
+                    </div>
+                </div>
+                <div class="projetsCard">
+                    <div><a href="https://jeantoru.github.io/Proyecto1-Hotel/" target="_black"> <img class="imgProjets"
+                                src="img/hotel.jpg" alt="Proyecto de Hotel"></a>
+                    </div>
+                    <div class="clearfix">
+                        <h4>Hotel</h4>
+                    </div>
+                </div>
+                <div class="projetsCard">
+                    <div><a href="https://jeantoru.github.io/Proyecto1-Hotel/" target="_black"> <img class="imgProjets"
+                                src="img/hotel.jpg" alt="Proyecto de Hotel"></a>
+                    </div>
+                    <div class="clearfix">
+                        <h4>Hotel</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="space-border">
+        <div class="clearfix wrapper">
+            <p class="infoContact">Contact</p>
+            <a href="mailto:jeantoruno00@gmail.com">jeantoruno00@gmail.com</a>
+        </div>
+    </section>
+    <div class="clearfix wrapper">
+        <h4 id="formTitle">Contact</h4>
+        <form action="" class="formContent" id="form-message">
+            <label for="name">Name</label>
+            <input id="name" class="formu" type="text" required>
+            <label for="email">Email</label>
+            <input id="email" class="formu" type="text" required>
+            <label for="phone">Phone</label>
+            <input id="phone" class="formu" type="text">
+            <label for="subject">Motive</label>
+            <input id="subject" class="formu" type="text" required>
+            <label for="message">Message</label>
+            <textarea id="message" class="formu" required></textarea>
+            <input type="submit" value="Send" id="send" class="open">
+            <div class="alert-Container" id="alert__Container"></div>
+        </form>
+    </div>
+    <div class="gitHubContainer">
+        <section id="gitHub">
+            <div class="gitHub wrapper">
+                <h4 id="gitHubTitle">GitHub</h4>
+                <ul class="list">
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div id="footer">
+        <div class="clearfix wrapper">
+            <h4 id="footerFollow">Follow me</h4>
+            <a href="https://twitter.com/JeanBro92338197" target="_black"><img class="twitterLogo" src="img/twitter.png"
+                    alt="Icono de twitter"></a>
+            <a href="https://github.com/jeanToru" target="_black"><img class="gitHubLogo" src="img/github.png"
+                    alt="Icono de GitHub"></a>
+        </div>
+    </div>
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
